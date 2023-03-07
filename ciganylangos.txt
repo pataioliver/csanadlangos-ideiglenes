@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Csanád Lángos">
+    <meta name="keyword" content="Csanád Lángos, Lángos, Békéscsaba">
+    <meta name="author" content="Patai Olivér & Makucza Olivér | GSZI - 11/B">
+    <link rel="icon" type="image/x-icon" href="./assets/csanadszakacs.png">
+    <title>Csanád Lángos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="rendeles.js" defer></script>
+    <style>
+        .transform-img {
+            -webkit-transform: rotate(-5deg) translateY(-4rem) translateX(-1rem);
+            transform: rotate(-5deg) translateY(-4rem) translateX(-1rem);
+
+        }
+    </style>
+
+</head>
+
+<body class="text-yellow-900  bg-gradient-to-b from-yellow-50 to-yellow-200">
+
+ 
+        <div class=" container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12">
+            <nav
+            class="fixed top-1 left-0 w-full h-16 md:h-[4.5rem] lg:h-20 xl:h-[5.5rem] bg-yellow-900 flex justify-between items-center px-8 md:px-10 shadow-md shadow-yellow-200 z-10">
+    
+           
+    
+            <div class="flex flex items-center">
+                <h1 class="text-2xl md:text-[2rem] whitespace-nowrap mr-3 text-yellow-200">Csanád Lángos
+    
+                </h1>
+                <img src="assets/csanadszakacs.png" class="h-12 md:h-14 lg:h-16 xl:h-[4.5rem]"
+                    alt="Csanád Lángos grafika" />
+            </div>
+    
+            <button
+                class="cursor-pointer font-inherit font-bold border-none bg-yellow-200 text-white py-2.5 md:py-3 px-6 md:px-12 flex justify-around items-center rounded-2xl md:rounded-3xl hover:bg-yellow-300 active:bg-yellow-400 group ">
+                <span class="w-5 h-5 md:w-[1.35rem] md:h-[1.35rem] mr-2 ">
+
+ <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+                          </svg>
+
+
+                </span><span class="text-sm md:text-base text-yellow-900">Kosár</span><span
+                    class="text-sm text-yellow-200 md:text-base bg-yellow-900 ml-3 py-0.5 md:py-1 px-2 md:px-4 rounded-3xl  font-bold group-hover:text-yellow-300">0</span></button>
+    
+    
+    
+    
+        </nav>
+    
+          <div class="h-32 md:h-40"></div>
+    
+          <p class=" text-4xl font-bold max-w-5xl lg:text-7xl lg:pr-24 md:text-6xl">
+            Spend less time coding and more time creating
+          </p>
+          <div class="h-10"></div>
+          <p class="max-w-2xl font-serif text-xl  md:text-2xl">
+            Imagine being able to spent less time... This is a demonstration landing
+            page made with tailwindcss
+          </p>
+    
+          <div class="h-32 md:h-40"></div>
+    
+          <div class="grid gap-8 md:grid-cols-2">
+            <div class="flex flex-col justify-center">
+              <p class="self-start inline  text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-green-400 to-green-600">
+                Simple and easy
+              </p>
+              <h2 class="text-4xl font-bold">Made for devs and designers</h2>
+              <div class="h-6"></div>
+              <p class="font-serif text-xl  md:pr-10">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+                autem, a recusandae vero praesentium qui impedit doloremque
+                molestias necessitatibus.
+              </p>
+              <div class="h-8"></div>
+              <div class="grid grid-cols-2 gap-4 pt-8 border-t border-gray-800">
+                <div>
+                  <p class="font-semibold ">Made with love</p>
+                  <div class="h-4"></div>
+                  <p class="font-serif ">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Delectus labor.
+                  </p>
+                </div>
+                <div>
+                  <p class="font-semibold ">It's easy to build</p>
+                  <div class="h-4"></div>
+                  <p class="font-serif ">
+                    Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                    amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="-mr-24 rounded-lg md:rounded-l-full bg-gradient-to-br from-gray-900 to-black h-96"></div>
+            </div>
+          </div>
+    
+          <div class="h-32 md:h-40"></div>
+    
+          <p class="font-serif text-4xl">
+            <span class="">If we work all together</span>
+    
+            <span class="">consectetur adipisicing elit. Consectetur atque molestiae omnis
+              excepturi enim!</span>
+          </p>
+    
+          <div class="h-32 md:h-40"></div>
+    
+          <div class="grid gap-4 md:grid-cols-3">
+            <div class="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-br from-gray-900 to-black">
+              <p class="flex items-center justify-center text-4xl font-semibold text-green-400 bg-green-800 rounded-full shadow-lg w-14 h-14">
+                1
+              </p>
+              <div class="h-6"></div>
+              <p class="font-serif text-3xl">We build products with UX in mind</p>
+            </div>
+            <div class="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-b from-gray-900 to-black">
+              <p class="flex items-center justify-center text-4xl font-semibold text-indigo-400 bg-indigo-800 rounded-full shadow-lg w-14 h-14">
+                2
+              </p>
+              <div class="h-6"></div>
+              <p class="font-serif text-3xl">
+                You can trust us to deliver super fast
+              </p>
+            </div>
+            <div class="flex-col p-8 py-16 rounded-lg shadow-2xl md:p-12 bg-gradient-to-bl from-gray-900 to-black">
+              <p class="flex items-center justify-center text-4xl font-semibold text-teal-400 bg-teal-800 rounded-full shadow-lg w-14 h-14">
+                3
+              </p>
+              <div class="h-6"></div>
+              <p class="font-serif text-3xl">We made it simple and easy to do</p>
+            </div>
+          </div>
+    
+          <div class="h-40"></div>
+    
+          <div class="grid gap-8 md:grid-cols-3">
+            <div class="flex flex-col justify-center md:col-span-2">
+              <p class="self-start inline  text-xl font-medium text-transparent bg-clip-text bg-gradient-to-br from-teal-400 to-teal-600">
+                We are humans
+              </p>
+              <h2 class="text-4xl font-bold">We could work together</h2>
+              <div class="h-6"></div>
+              <p class="font-serif text-xl  md:pr-10">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam
+                autem, a recusandae vero praesentium qui impedit doloremque
+                molestias.
+              </p>
+              <div class="h-8"></div>
+              <div class="grid gap-6 pt-8 border-t border-gray-800 lg:grid-cols-3">
+                <div>
+                  <p class="font-semibold ">Made with love</p>
+                  <div class="h-4"></div>
+                  <p class="font-serif ">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Delectus labor.
+                  </p>
+                </div>
+                <div>
+                  <p class="font-semibold ">It's easy to build</p>
+                  <div class="h-4"></div>
+                  <p class="font-serif ">
+                    Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                    amet consectetur.
+                  </p>
+                </div>
+                <div>
+                  <p class="font-semibold ">It's easy to build</p>
+                  <div class="h-4"></div>
+                  <p class="font-serif ">
+                    Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
+                    amet consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="-mr-24 rounded-lg md:rounded-l-full bg-gradient-to-br from-gray-900 to-black h-96"></div>
+            </div>
+          </div>
+    
+          <div class="h-10 md:h-40"></div>
+    
+          <div class="grid gap-4 md:grid-cols-4">
+            <ul class="space-y-1 ">
+              <li class="pb-4 font-serif ">Social networks</li>
+              <li>
+                <a href="https://twitter.com/victormustar" class="hover:underline">Twitter</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Linkedin</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Facebook</a>
+              </li>
+            </ul>
+            <ul class="space-y-1 ">
+              <li class="pb-4 font-serif ">Locations</li>
+              <li>
+                <a href="#" class="hover:underline">Paris</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">New York</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">London</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Singapour</a>
+              </li>
+            </ul>
+            <ul class="space-y-1 ">
+              <li class="pb-4 font-serif ">Company</li>
+              <li>
+                <a href="#" class="hover:underline">The team</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">About us</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Our vision</a>
+              </li>
+              <li>
+                <a href="#" class="hover:underline">Join us</a>
+              </li>
+            </ul>
+            <ul class="space-y-1 ">
+              <li class="pb-4 font-serif ">Join</li>
+              <li>
+                <a href="https://github.com/gary149/landing-gradients" class="self-start px-3 py-2 leading-none  border border-gray-800 rounded-lg focus:outline-none focus:shadow-outline bg-gradient-to-b hover:from-indigo-500 from-gray-900 to-black">
+                  Get this template
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="h-12"></div>
+        </div>
+      
+        <footer>
+            <div class="p-6"></div>
+            <div class="py-2 px-5 bg-yellow-200"><span class="text-yellow-900 font-bold">Készítette: Patai Olivér & Makucza
+                    Olivér | Békéscsabai SZC Nemes Tihamér Technikum és Kollégium - 11/B</span></div>
+        </footer>
+
+
+        <div class="w-full bg-yellow-900 h-1 fixed top-0">
+            <div class="bg-yellow-200 h-1 fixed" id="myBar"></div>
+        </div>
+    
+        <script>
+            window.onscroll = function () { myFunction() };
+    
+            function myFunction() {
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                var scrolled = (winScroll / height) * 100;
+                document.getElementById("myBar").style.width = scrolled + "%";
+            }
+        </script>
+
+
+    </body>
+
+
+
+</html>
